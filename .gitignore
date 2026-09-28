@@ -1,0 +1,15 @@
+# Gradle & Kotlin build files
+.gradle/
+.kotlin/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS generated files
+.DS_Store
+Thumbs.db

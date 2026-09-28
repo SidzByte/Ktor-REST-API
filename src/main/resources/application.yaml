@@ -1,0 +1,13 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - com.example.DatabasesKt.configureDatabases
+      - com.example.SerializationKt.configureSerialization
+      - com.example.RoutingKt.configureRouting
+
+storage:
+  jdbcURL: "jdbc:postgresql://localhost:5432/postgres"
+  user: "postgres"
+  password: "admin"
